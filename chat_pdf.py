@@ -8,7 +8,7 @@ import os
 import tiktoken
 
 os.environ["OPENAI_API_KEY"] = ''
-dir = '/Users/haricharan/Documents/Projects/Reomnify/SSD-59568708'
+dir = '/Users/haricharan/Documents/Projects/Reomnify/test'
 pdfs = os.listdir(dir)
 
 parsed_text = ""
